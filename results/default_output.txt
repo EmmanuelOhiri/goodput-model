@@ -1,0 +1,26 @@
+per-GPU time between interruptions: 50,677 hours
+
+  1,024 GPUs  job MTBF   2969 min  slow recovery (5 min checkpoint, 30 min restart)  best interval   172 min  goodput formula 0.932  simulated 0.934
+  1,024 GPUs  job MTBF   2969 min  fast recovery (30 s checkpoint, 10 min restart)   best interval    54 min  goodput formula 0.978  simulated 0.979
+  4,096 GPUs  job MTBF    742 min  slow recovery (5 min checkpoint, 30 min restart)  best interval    86 min  goodput formula 0.844  simulated 0.853
+  4,096 GPUs  job MTBF    742 min  fast recovery (30 s checkpoint, 10 min restart)   best interval    27 min  goodput formula 0.950  simulated 0.951
+ 16,384 GPUs  job MTBF    186 min  slow recovery (5 min checkpoint, 30 min restart)  best interval    43 min  goodput formula 0.606  simulated 0.675
+ 16,384 GPUs  job MTBF    186 min  fast recovery (30 s checkpoint, 10 min restart)   best interval    14 min  goodput formula 0.873  simulated 0.881
+ 32,768 GPUs  job MTBF     93 min  slow recovery (5 min checkpoint, 30 min restart)  best interval    30 min  goodput formula 0.348  simulated 0.533
+ 32,768 GPUs  job MTBF     93 min  fast recovery (30 s checkpoint, 10 min restart)   best interval    10 min  goodput formula 0.788  simulated 0.812
+ 65,536 GPUs  job MTBF     46 min  slow recovery (5 min checkpoint, 30 min restart)  best interval    22 min  goodput formula 0.000  simulated 0.365
+ 65,536 GPUs  job MTBF     46 min  fast recovery (30 s checkpoint, 10 min restart)   best interval     7 min  goodput formula 0.638  simulated 0.707
+100,000 GPUs  job MTBF     30 min  slow recovery (5 min checkpoint, 30 min restart)  best interval    17 min  goodput formula 0.000  simulated 0.264
+100,000 GPUs  job MTBF     30 min  fast recovery (30 s checkpoint, 10 min restart)   best interval     6 min  goodput formula 0.490  simulated 0.624
+
+16,384 GPUs, goodput by checkpoint interval (simulated)
+  every   5 min  slow recovery 0.419  fast recovery 0.850
+  every  10 min  slow recovery 0.551  fast recovery 0.879
+  every  15 min  slow recovery 0.611  fast recovery 0.881
+  every  20 min  slow recovery 0.643  fast recovery 0.876
+  every  30 min  slow recovery 0.671  fast recovery 0.859
+  every  45 min  slow recovery 0.674  fast recovery 0.828
+  every  60 min  slow recovery 0.664  fast recovery 0.796
+  every  90 min  slow recovery 0.625  fast recovery 0.733
+  every 120 min  slow recovery 0.579  fast recovery 0.671
+  every 180 min  slow recovery 0.491  fast recovery 0.562
